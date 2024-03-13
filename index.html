@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz </title>
+</head>
+
+<body>
+
+    <header>Quiz </header>
+    <section class="main-section">
+        <div id="first-main-div">
+            <img src="./quiz-image.gif" alt="quiz-start-image">
+            <h1>Coding Quiz</h1>
+            <p>This quiz consists of 5 questions and answering them right
+                gives you 5 points on the end of quiz score card.</p>
+            <button class="start-btn">Start Quiz</button>
+
+        </div>
+        <div id="second-main-div">
+            <div class="first">
+                <h2>Questions </h2>
+            </div>
+
+            <hr />
+            <div class="second">
+                <ul>
+                    <li>
+                        <input name="answer" type="radio" id="1">
+                        <label for="1" id="001">option1</label>
+                    </li>
+                    <li>
+                        <input name="answer" type="radio" id="2">
+                        <label for="2" id="002">option2</label>
+                    </li>
+                    <li>
+                        <input name="answer" type="radio" id="3">
+                        <label for="3" id="003">option3</label>
+                    </li>
+                    <li>
+                        <input name="answer" type="radio" id="4">
+                        <label for="4" id="004">option4</label>
+                    </li>
+                </ul>
+            </div>
+            <hr />
+            <div class="third" id="third-div">
+                <h3 class="total-Question">Total Questions : 5 / 5</h3>
+                <button id="next" class="button">Next</button>
+            </div>
+        </div>
+
+        <div id="third-main-div">
+            <h3 id="heading-3">Score : 0</h3>
+            <h4 id="heading-4">You shall not pass!</h4>
+            <p>Keep learning at your own pace, there's no rush.</p>
+            <button id="retake-btn" class="start-btn">Retake Quiz</button>
+
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
